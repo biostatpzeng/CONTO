@@ -30,8 +30,8 @@ source("CONTO.R")
 input_pvalues = read.table("scz.txt",sep="\t",header=T)
 ax=conto_estimation(input_pvalues,lambda=0.5)
 
-X1 X2 efdr11 efdr10 efdr01
-0.8713924 0.5784122 0.8126806 0.6138184 0.7875082
+X1         X2         efdr11     efdr10     efdr01
+0.8713924  0.5784122  0.8126806  0.6138184  0.7875082
 
 ```
 # Cite
