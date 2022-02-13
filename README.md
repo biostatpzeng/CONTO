@@ -6,11 +6,14 @@ Like JST, we take Pmax=max(P1, P2) as our test statistic for the detection of fo
 <p align="center">
 Pr⁡( P_"max"  ≤ α|H_0) = Pr⁡( P_1 ≤ α|H_01)Pr⁡( P_2 ≤ α|H_01)Pr⁡( H_01)
                       
-  + Pr⁡( P_1 ≤ α|H_10)Pr⁡( P_2 ≤ α|H_10)Pr⁡( H_10)
+                      + Pr⁡( P_1 ≤ α|H_10)Pr⁡( P_2 ≤ α|H_10)Pr⁡( H_10)
                      
-  + Pr⁡( P_1 ≤ α|H_00)Pr⁡( P_2 ≤ α|H_00)Pr⁡( H_00)
-                      = λ_01 p_01 α + λ_10 p_10 α + λ_00 α^2
+                      + Pr⁡( P_1 ≤ α|H_00)Pr⁡( P_2 ≤ α|H_00)Pr⁡( H_00)
+                      
+                      = λ_01 p_01 α + λ_10 p_10 α + λ_00 α^2
+                
                  p_01 = Pr⁡( P_2 ≤ α|H_01)
+                
                  p_10 = Pr⁡( P_1 ≤ α|H_10)
 </p>
 
