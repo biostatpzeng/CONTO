@@ -23,7 +23,17 @@ A3GALT2       0.712489    0.203850
 ```
 The summary statistics file should be at least four columns (i.e. P.x and P.y). P.x is the p-value of GENEs in one population; P.y is the p-value of GENEs in the other population.
 
+# Example
+```ruby
+library(fdrtool)
+source("CONTO.R")
+input_pvalues = read.table("scz.txt",sep="\t",header=T)
+ax=conto_estimation(input_pvalues,lambda=0.5)
 
+X1 X2 efdr11 efdr10 efdr01
+0.8713924 0.5784122 0.8126806 0.6138184 0.7875082
+
+```
 # Cite
 Jiahao Qiao<sup>$</sup>, Lihong Huang<sup>$</sup>, Lei Xia<sup>$</sup>, Ting Wang<sup>$</sup> and Ping Zeng<sup>#</sup> (2021). Detecting associated genes for complex traits shared across East Asian and European populations under the framework of composite null hypothesis testing, in press.
 
