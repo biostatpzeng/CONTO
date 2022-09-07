@@ -35,7 +35,7 @@ X1         X2         efdr11     efdr10     efdr01
 
 ```
 # Cite
-Jiahao Qiao<sup>$</sup>, Zhonghe Shao<sup>$</sup>, Yuxuan Wu, Ting Wang<sup>#</sup> and Ping Zeng<sup>#</sup> (2022). Detecting associated genes for complex traits shared across East Asian and European populations under the framework of composite null hypothesis testing, in press.
+Jiahao Qiao<sup>$</sup>, Zhonghe Shao<sup>$</sup>, Yuxuan Wu, Ting Wang<sup>#</sup> and Ping Zeng<sup>#</sup> (2022). Detecting associated genes for complex traits shared across East Asian and European populations under the framework of composite null hypothesis testing.
 
 # Contact
 We are very grateful to any questions, comments, or bugs reports; and please contact [Ping Zeng](https://github.com/biostatpzeng) via zpstat@xzhmu.edu.cn.
